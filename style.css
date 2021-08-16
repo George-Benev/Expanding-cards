@@ -33,10 +33,6 @@ body{
     transition: flex 0.5s ease-in;
 }
 
-.panel:hover {
-    flex: 5;
-}
-
 
 .panel h3 {
     font-size: 50px;
@@ -52,7 +48,7 @@ body{
     flex: 5;
 }
 
-.panel h3:hover {
+.panel.active h3 {
     opacity: 1;
     transition: opacity 0.3s ease-in 0.5s;
 }
