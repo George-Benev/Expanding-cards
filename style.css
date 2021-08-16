@@ -47,19 +47,12 @@ body{
     opacity: 0;
 }
 
-.panel h3:hover {
-    bottom: 100px;
-    left: 100px;
-    font-size: 50px;
-    opacity: 0.5;
-}
-
 
 .panel.active {
     flex: 5;
 }
 
-.panel.active h3 {
+.panel h3:hover {
     opacity: 1;
     transition: opacity 0.3s ease-in 0.5s;
 }
